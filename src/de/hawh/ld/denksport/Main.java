@@ -10,6 +10,8 @@ public class Main {
         System.out.println((int) (char) (byte) -1);
 
     }
+
+
     /*
     * public static boolean isOdd(long i) {
     * return i % 2 == 1;
