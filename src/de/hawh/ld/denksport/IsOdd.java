@@ -3,8 +3,11 @@
  * return i % 2 == 1;
  *
  * Für negative Zahlen gibt der Modulooperator auch negative Zahlen zurück.
+ * Folglich liefert die Methode nur in einem Viertel aller Fälle das richtige Ergebnis,
+ * bzw. in der Hälfte. Allerdings sind alle false für gerade negative Zahlen "zufällig" richtig.
  *
- * Alternativen wären:
+ *
+ * Alternativen wären folgende Klassenmethoden:
  */
 package de.hawh.ld.denksport;
 
