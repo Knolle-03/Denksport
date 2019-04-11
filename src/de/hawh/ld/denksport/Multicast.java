@@ -8,10 +8,10 @@
  *
  * Quelle: https://docs.oracle.com/javase/specs/jls/se7/html/jls-5.html
  *
- * -1 wird als Zweierkomplementär gespeichert. Alle bits sind anfänglich also gesetzt.
+ * -1 wird als Zweierkomplementär gespeichert. Alle 32 Bits sind anfänglich also gesetzt.
  * Durch den Bytecast werden die ersten 24 Bit abgeschnitten. (Wert ist immernoch -1)
- * Da Bytes signed sind wird das negative Vorzeichen "beibehalten"
- * und die -1 in 16 gesetzen bits dargestellt.
+ * Da Bytes signed sind wird das negative Vorzeichen beibehalten
+ * und die -1 in 8 gesetzen bits dargestellt.
  *
  * siehe: 5.1.3. Narrowing Primitive Conversion
  *
@@ -35,8 +35,6 @@
  * und nicht wie man denken könnte zu 1111 1111 1111 1111 1111 1111 1111 1111.
  *
  * Folglich wird die Zahl 65535 (2e+16 - 1) ausgegeben.
- *
- * Diese wird dann auch ausgegeben.
  */
 package de.hawh.ld.denksport;
 
